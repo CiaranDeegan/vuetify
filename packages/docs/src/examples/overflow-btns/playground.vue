@@ -1,7 +1,7 @@
 <template>
   <v-layout column align-center>
     <v-layout wrap justify-space-around>
-      <v-switch v-model="editable" class="ma-2" label="Ediatable"></v-switch>
+      <v-switch v-model="editable" class="ma-2" label="Editable"></v-switch>
       <v-switch v-model="segmented" class="ma-2" label="Segmented"></v-switch>
       <v-switch v-model="loading" class="ma-2" label="Loading"></v-switch>
       <v-switch v-model="disabled" class="ma-2" label="Disabled"></v-switch>
